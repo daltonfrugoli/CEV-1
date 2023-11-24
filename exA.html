@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de exercício</title>
+    <title>Hora do dia</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+
+<body onload="verificar()">
     <header>
-        <h1>Título</h1>
+        <h1>Hora do dia</h1>
     </header>
+
+    <!--Seção de informações do site-->
     <section>
-        <div>
-            Testando... 
+        <div id="msg">
+            <p>Aqui aparecerão as infos</p>
         </div>
-        <div>
-            Olá...
+        <div id="bd">
+            <p>Aqui aparecerá um bom dia</p>
+        </div>
+        <div >
+           <img id="imagem" src="tarde.png" alt="foto do dia">
         </div>
     </section>
     <footer>
         <p>&copy; CursoemVideo</p>
     </footer>
+
+    <!--Script do site-->
     <script src="script.js"></script>
-    
+
 </body>
 </html>
